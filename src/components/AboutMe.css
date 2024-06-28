@@ -1,0 +1,85 @@
+/* General styling for the About Me section */
+.aboutsteve {
+  padding: 20px; /* Adds padding inside the element for spacing */
+  font-family: Arial, sans-serif; /* Sets the font family for the text */
+}
+
+/* Styling for the header section */
+.aboutheader {
+  display: flex; /* Uses flexbox for layout */
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+  margin-bottom: 20px; /* Adds space below the header */
+}
+
+/* Container for the left and right sections */
+.about-sections {
+  display: flex; /* Uses flexbox for layout */
+  justify-content: space-between; /* Places space between the left and right sections */
+}
+
+/* Styling for the left section */
+.about-left-side {
+  flex: 1; /* Makes the left section take up one part of the available space */
+  text-align: center; /* Centers the text and image horizontally */
+}
+
+/* Styling for the profile image */
+.profileimage {
+  max-width: 70%; /* Sets the maximum width of the image to 60% of its container */
+  border-radius: 50%; /* Makes the image circular */
+}
+
+/* Styling for the right section */
+.about-right-side {
+  flex: 2; /* Makes the right section take up two parts of the available space */
+  padding: 20px; /* Adds padding inside the element for spacing */
+}
+
+/* Common styling for the tech skills and class projects sections */
+.tech-skills, .class-projects {
+  margin-bottom: 20px; /* Adds space below each section */
+}
+
+/* Styling for the projects box */
+.class-projects {
+  border: 2px solid rgba(128, 128, 128, 0.3); /* Adds a semi-transparent border */
+  padding: 20px; /* Adds padding inside the element for spacing */
+  border-radius: 10px; /* Rounds the corners of the box */
+  background-color: rgba(128, 0, 128, 0.3); /* Sets a purple background color with transparency */
+}
+
+/* Styling for the project section header */
+.project-section h2 {
+  color: #fff; /* Sets the text color to white for contrast */
+}
+
+/* Styling for individual project sections */
+.project-section {
+  margin-bottom: 10px; /* Adds space below each project section */
+}
+
+/* Styling for the submit button */
+.aboutme-submit-button {
+  display: inline-block; /* Makes the button an inline block element */
+  padding: 10px 20px; /* Adds padding inside the button */
+  font-size: 16px; /* Sets the font size */
+  color: #fff; /* Sets the text color to white */
+  background-color: rgba(128, 0, 128, 0.3); /* Match the background color */
+  border: 2px solid rgba(128, 128, 128, 0.3); /* Match the border style */
+  border-radius: 5px; /* Rounds the corners of the button */
+  text-decoration: none; /* Removes the underline from the text */
+  transition: background-color 0.3s, transform 0.3s; /* Adds transition effects for background color and transform */
+}
+
+/* Styling for the submit button on hover */
+.aboutme-submit-button:hover {
+  background-color: rgba(128, 0, 128, 0.5); /* Slightly darker on hover for better contrast */
+  transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+/* Styling for the link inside the submit button */
+.aboutme-submit-button a {
+  color: #fff; /* Sets the text color to white */
+  text-decoration: none; /* Removes the underline from the text */
+}

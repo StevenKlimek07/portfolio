@@ -1,0 +1,52 @@
+:root {
+    --main-font-family: "Manrope", sans-serif; /* Define the main font family */
+    --background-image: url(/Users/stevenklimek/bloom-repos/react-projects/portfolio-projet/src/images/galaxy.jpg); /* Define the background image */
+}
+
+body {
+    margin: 0; /* Remove default margin */
+    font-family: var(--main-font-family); /* Use the defined main font family */
+    background-image: var(--background-image); /* Set the background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Make sure the background image stays fixed during scrolling */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white; /* Set the text color to white */
+}
+
+a {
+    color: inherit; /* Ensure links inherit color from the parent element */
+}
+
+.footer {
+    text-align: center; /* Center the text in the footer */
+    padding: 10px; /* Add padding to the footer */
+    color: white; /* Set the text color to white */
+    position: fixed; /* Fix the footer at the bottom of the page */
+    width: 100%; /* Make the footer take the full width of the page */
+    bottom: 0; /* Position the footer at the bottom */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the content horizontally */
+    background-color: rgba(51, 51, 51, 0.2); /* Dark background color with 20% opacity */
+}
+
+.navbar {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the nav links */
+    background-color: rgba(128, 0, 128, 0.3); /* Purple color with transparency */
+    padding: 10px 0; /* Add vertical padding */
+}
+
+.nav-link {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding to make the clickable area larger */
+    margin: 0 10px; /* Add space between links */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.nav-link:hover {
+    background-color: rgba(128, 0, 128, 0.5); /* Slightly lighter background on hover with 50% opacity */
+}
+

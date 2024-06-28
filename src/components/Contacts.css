@@ -1,0 +1,106 @@
+:root {
+  font-family: "Manrope", sans-serif;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center; /* Center the image and information horizontally */
+  align-items: center; /* Center the image and information vertically */
+  margin: 20px 170px;
+  gap: 40px; /* Space the image and information slightly */
+}
+
+.image {
+  width: 200px; /* Keep the increased size of the image */
+  height: 200px; /* Keep the increased size of the image */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contact-information {
+  text-align: left;
+  color: white; /* Make all the text white */
+}
+
+.contact-information a {
+  color: white; /* Make hyperlink text white */
+  text-decoration: none; /* Remove underline from hyperlinks */
+}
+
+.contact-information a:hover {
+  text-decoration: underline; /* Optional: underline on hover */
+}
+
+.contact-information h2 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the form elements */
+  margin: 20px 170px;
+  width: calc(100% - 340px); /* Adjust width to account for reduced size and spacing */
+  background-color: rgba(128, 0, 128, 0.3); /* Add underlay background color */
+  padding: 20px; /* Add padding for the form */
+  border-radius: 10px; /* Add border radius for the form */
+}
+
+.labelstyle {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: white; /* Make label text white */
+}
+
+.input-field {
+  width: 60%; /* Decrease the width of the textboxes */
+  padding: 6px; /* Reduce padding by 40% */
+  margin-bottom: 6px; /* Reduce margin by 40% */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: transparent; /* Make textboxes transparent */
+  color: white; /* Make input text white */
+  font-size: 0.8em; /* Reduce font size by 40% */
+}
+
+.input-field:focus {
+  background: transparent; /* Ensure the textbox remains transparent when focused/typing */
+}
+
+.error-message {
+  color: white; /* White text color */
+  background-color: hotpink; /* Hot pink background color */
+  border: 1px solid white; /* Red border */
+  margin-bottom: 6px; /* Reduce margin by 40% */
+  font-size: 0.8em; /* Reduce font size by 40% */
+  padding: 5px; /* Add some padding inside the text box */
+  border-radius: 4px; /* Optional: add rounded corners */
+}
+
+
+/* Styling for the submit button */
+button[type="submit"] {
+  display: inline-block; /* Makes the button an inline block element */
+  padding: 15px 40px; /* Increases width and height */
+  font-size: 16px; /* Sets the font size */
+  color: #fff; /* Sets the text color to white */
+  background-color: rgba(128, 0, 128, 0.5); /* Darker background color to match nav */
+  border: 2px solid rgba(128, 128, 128, 0.3); /* Match the border style */
+  border-radius: 5px; /* Rounds the corners of the button */
+  text-decoration: none; /* Removes the underline from the text */
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Adds transition effects for background color, transform, and box-shadow */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+/* Styling for the submit button on hover */
+button[type="submit"]:hover {
+  background-color: rgba(128, 0, 128, 0.7); /* Slightly darker on hover for better contrast */
+  transform: scale(1.1); /* Enlarges the button on hover */
+  box-shadow: 0 0 10px rgba(128, 0, 128, 0.7); /* Adds a glowing effect on hover */
+}
+
+/* Styling for the link inside the submit button */
+button[type="submit"] a {
+  color: #fff; /* Sets the text color to white */
+  text-decoration: none; /* Removes the underline from the text */
+}
